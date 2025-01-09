@@ -28,10 +28,11 @@ public class Main
         System.out.println("Input the MPGr");
         mpg = sc.nextDouble();
         Car car = new Car(make, model, year, mpg);
+        System.out.print(car.toString());
         // ask for model, year, miles per gallon
       }
 
-      System.out.println(Car); // print out the car object
+      //System.out.println(Car.toString()); // print out the car object
     }
   }
 }

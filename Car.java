@@ -7,9 +7,9 @@ public class Car
   private static int ID;
   public Car(String make, String model, int year, double mpg) {
     this.make = make;
-    this.model = model
+    this.model = model;
     this.year = year;
-    this.mpg = mpg;
+    this.MPG = mpg;
     ID++;
   }
   public Car() {
