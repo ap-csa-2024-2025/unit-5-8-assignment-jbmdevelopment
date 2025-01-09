@@ -18,14 +18,20 @@ public class Main
       else
       {
         String make = input;
-        String name;
+        String model;
         int year;
         double mpg;
-        a
+        System.out.println("Input the model");
+        model = sc.nextLine();
+        System.out.println("Input the year");
+        year = sc.nextInt();
+        System.out.println("Input the MPGr");
+        mpg = sc.nextDouble();
+        Car car = new Car(make, model, year, mpg);
         // ask for model, year, miles per gallon
       }
 
-      System.out.println(); // print out the car object
+      System.out.println(Car); // print out the car object
     }
   }
 }
