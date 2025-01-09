@@ -12,10 +12,16 @@ public class Main
       input = sc.nextLine();
       if (input.equals("default"))
       {
+        Car car = new Car();
         // create default car
       }
       else
       {
+        String make = input;
+        String name;
+        int year;
+        double mpg;
+        a
         // ask for model, year, miles per gallon
       }
 
